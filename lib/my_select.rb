@@ -1,5 +1,6 @@
 def my_select(collection)
   result = []
   collection.each do |i|
-    result << i if yeild(i)
+    result << i if yeild(i) == TRUE
+    
 end
