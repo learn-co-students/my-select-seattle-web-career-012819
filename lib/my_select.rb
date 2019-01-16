@@ -1,4 +1,4 @@
 def my_select(collection)
   result = []
-  while i < collection.length  
+  collection.each do |i|
 end
